@@ -1,0 +1,725 @@
+
+/* body */
+@font-face{
+    font-family:bold;
+    src: url(./../fonts/Mukta-Bold.ttf);
+}
+@font-face{
+    font-family: Regular;
+    src: url(./../fonts/Mukta-Regular.ttf);
+}
+@font-face{
+    font-family: light;
+    src: url(./../fonts/Mukta-Light.ttf);
+}
+@font-face{
+    font-family: medium;
+    src: url(./../fonts/Mukta-Medium.ttf);
+}
+body{
+    font-family: Regular;
+    background-color: #F6F7F9;
+    text-align: center;
+    margin: 0;
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+a, button{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+figure{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+.head{
+    background-image: url(./../photos/bgbanner-index.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+/* body */
+
+
+/* header */
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo img{
+    float: left;
+}
+.logo figure{
+    margin-top: 21px;
+}
+
+.headerOptions{
+    float: right;
+    width: 70%;
+}
+.headerOptions ul{
+    padding: 0;
+    text-align: end;
+}
+.headerOptions li{
+    display: inline-block;
+    padding:11px;
+    padding-top: 18px;
+    font-size: 18px;
+}
+.headerOptions li:hover a{
+    color:#e91222;
+}
+.headerOptions li:last-child{
+    padding: 0;
+    padding: 18px 0 0 18px;
+}
+.headerOptions li a{
+    color: black;
+}
+.headerOptions li button{
+    font-size: 18px;
+    padding: 20px;
+    background-color: #4960AC;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    color: white;
+}
+
+/* / header */
+
+/* banner secton */
+.headingBlue{
+    font-size: 30px;
+    color: #4960AC  ;
+}
+.banner h1{
+    font-size: 41px;
+    line-height: 1.3;
+    margin-top: 16px;
+}
+.redbutton{
+    background-color: transparent;
+    border: 2px #e91222 solid ;
+    border-radius: 50px;
+    padding: 20px 40px;
+    color: #e91222;
+    font-size: 19px;
+}
+.welcomediv{
+    margin-top: 65px;
+    padding-bottom: 117px;
+}
+.welcome{
+    width: 41%;
+    text-align: left;
+    float: left;
+}
+.welcome h3{
+    margin-bottom: 0;
+}
+.welcomeImg{
+    width: 59%;
+    float: right;
+}
+.welcomeImg figure{
+    margin: 0;
+}
+.welcomeImg img{
+    width: 100%;
+    /* margin-right: -330px;
+    margin-top: -82px; */
+}
+
+
+/* / banner secton */
+
+/* appDownload section */
+.appDownload{
+    background-image: url(./../photos/fruits.png);
+    /* background-clip: content-box; */
+    background-repeat: no-repeat;
+    background-position: left-bottom;
+    padding: 37px 0 243px;
+}
+
+.store{
+    text-align: center;
+}
+.store ul{
+    padding: 0;
+}
+.store li{
+    display: inline-block;
+}
+.store li figure{
+    margin: 0;
+    margin: 30px 0 0 10px;
+}
+.store p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+.headingBlack{
+    font-size: 35px;
+}
+.reasonToUse{
+    background-image: url(./../photos/ellipes-1.png);
+    background-size: 100% 100%;
+    margin-top: -264px; 
+}
+
+/* / appDownload section */
+
+.headingWhite{
+    font-size: 35px;
+    color: white;
+}
+.reasons{
+    padding: 300px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.reasons ul{
+    padding: 0;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+.circle figure{
+    margin: 0;
+}
+.scooter-load figure{
+    margin: 36px;
+}
+.reason-div{
+    width: 15%;
+    float: left;
+    margin-left: 16px;
+}
+.smallwhite{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+.Payment{
+    background-image: url(./../photos/cookies-image.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 410%;
+    padding-bottom: 100px;
+}
+.bordergrey{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    border-color: #D7D8DA;
+    margin-left: 34px;
+}
+.options h3{
+    color: black;
+    padding-left:30px;
+}
+.paymentOptions ul{
+    padding: 0;
+}
+.paymentOptions li{
+    display: inline-block;
+}
+.paymentOptions img{
+    margin-top: 25px;
+}
+.workingBenifits{
+    background-image: url(./../photos/grey-banner.png);
+    margin-top: -146px; 
+    background-size: 100% 100%;
+}
+.workingBenifits figure{
+    margin: 0;
+}
+.benifits{
+    
+    padding: 250px 0;
+}
+.benifits img{
+    width: 100%;
+}
+.rider , .system{
+    float: left;
+    width: 48%;
+    background-color: #ffffff;
+    border-radius: 21px;
+    box-shadow: 4px 2px 9px -2px;
+}
+.rider{
+    margin-right: 2%;
+}
+.system{
+    margin-left: 2%;
+}
+
+.innerrider, .innersystem{
+    padding: 47px;
+}
+.system h2, .rider h2{
+    font-size: 32px;
+    margin-top: 0;
+}
+.system p, .rider p{
+    font-size: 25px;
+}
+
+/* ourPartners */
+.ourPartners{
+    background-image: url(./../photos/22.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    background-position: 0% -316%;
+}
+.partners ul{
+    padding: 0;
+}
+.partners li{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 282px;
+    height: 156px;
+    border-radius: 28px;
+}
+.partners p{
+    font-size: 35px;
+    line-height: 58px;
+    margin-top: 28px;
+    margin: 0;
+}
+.partners li{
+    margin: 15px;
+}
+.comming{
+    vertical-align: bottom;
+}
+#bluetext{
+    margin-top: 28px;
+    color: #4960AC;
+}
+
+/* / ourPartners */
+
+/* redsection */
+
+    .red{
+        text-align: left;
+    background-image: url(./../photos/ellipse-2.png);
+    background-size: 100% 100%;
+    color: #ffffff;
+    margin-top: -178px;
+    }
+    /* .workingBenifits {
+        margin-top: -159px;
+        background-size: auto 100%;
+    } */
+    .redcontent{
+        padding: 28% 0;
+    }
+    .redtext .circle{
+        background-color: #ffffff;
+    }
+    .redtext .reason-div{
+        text-align: center;
+        width: 29%;
+    }
+    .redtext p{
+        font-size: 22px;
+    }
+    .redtext .circle h3{
+        margin-top: 51px;
+    }
+    .redtext .reason-div:first-child{
+        margin-left: 0;
+    }
+    .whitebutton{
+    background-color: transparent;
+    border: 2px #ffffff solid ;
+    border-radius: 50px;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    font-size: 19px;
+    margin-top: 32px;
+    }
+    .redtext{
+        width: 50%;
+        float: left;
+    }
+    .redImage{
+        width: 50%;
+        float: right;
+    }
+    .redImage img, .download img{
+        width: 100%;
+    }
+/* / redsection */
+
+
+/* blogs */
+
+.blogs-section{
+    background-image: url(./../photos/27.png);
+    background-repeat: no-repeat;
+    background-position:100% 212%;;
+    padding-bottom: 300px;
+}
+.blogs-div{
+    width: 31%; 
+    float: left;
+    
+    
+}
+.blogs{
+    background-color: #FFFFFF;
+    border-radius: 23px;
+   
+}
+.blogs figure{
+    line-height: 0;
+}
+.blogs img{
+    width: 99%;
+}
+.blogstext{
+    padding: 20px;
+}
+.center-blogs{
+    margin: 0 32px;
+}
+.blogstext span{
+    color: #9B9B9B;
+}
+.blogstext h3{
+    font-size: 27px;
+}
+.blogstext p {
+    font-size: 20px;
+}
+.blogstext a{
+    font-size: 21px;
+    font-weight: 600;
+    border-bottom: 2px solid #e91222;
+    color: #e91222;
+}
+/* / blogs */
+
+/* footer */
+
+footer{
+    background-image: url(./../photos/footer.png);
+    background-size:100% 100%;
+    margin-top: -292px;
+    text-align: left;
+}
+.greytext{
+    color: #8E8F94;
+
+}
+.greytext a{
+    color: #8E8F94;
+}
+.about{
+    width: 30%;
+    /* float: left; */
+    margin-right: 50px;
+}
+.links .headingWhite, .contact .headingWhite, .download .headingWhite{
+    margin-top: 14px;
+}
+footer .container{
+    padding-top: 353px;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+.links{
+    width: 15%;
+}
+.smallcircle{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color:#4960AC;
+    border-radius: 50%;
+}
+.contact{
+    width: 20%;
+}
+.contact > *{
+    margin: 0;
+}
+.contact h3{
+    margin-top: 35px;
+}
+.contact p.headingBlue{
+    margin-top: 33px;
+}
+.contact p.greytext{
+    margin-bottom: 10px;
+}
+.contact img{
+    margin-top: 17px;
+}
+.contact li{
+    float: left;
+}
+.middle-smallcircle{
+    margin: 0 10px;
+}
+.download{
+    width: 22%;
+}
+.about, .links, .contact {
+    float: left;
+}
+.download{
+    float: right;
+}
+
+.upperfooter{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8E8F94;
+}
+.lowerfooter{
+    padding: 20px 0;
+}
+.copyright1{
+    font-size: 20px;
+    float: left;
+}
+.copyright1 p{
+    margin: 0;
+}
+.copyright1 span a{
+    color: #FFFFFF;
+    
+}
+.copyright2{
+    float: right;
+}
+.copyright2 a{
+    color: #8E8F94;
+}
+.copyright2 li{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* / footer */
+
+
+@media (max-width:960px){
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        float: none;
+    }
+    .headerOptions{
+        width: 100%;
+    }
+    .headerOptions ul{
+        text-align: center;
+    }
+    .welcome{
+        width: 71%;
+        text-align: center;
+        margin: auto;
+        float: none;
+    }
+    .welcomeImg{
+        width: 60%;
+        float: none;
+        margin: auto;
+    }
+    .appDownload{
+        background-image: url(./../photos/fruits.png);
+        /* background-clip: padding-box; */
+        background-repeat: no-repeat;
+        background-position: 0 -250%;
+        padding: 0px 0 184px;
+    }
+    .store{
+        text-align: center;
+        width: 71%;
+        margin: auto;
+    }
+    .reason-div{
+        width: 30%;
+    }
+    .circle{
+        margin: auto;
+    }
+    .Payment{
+        background-position: 100% 198%;
+        padding-bottom: 20%;
+    
+    }
+    .paymentOptions li{
+        width: 30%;
+    }
+    .options h3{
+        padding: 0;
+    }
+    .workingBenifits{
+        margin-top: 0;
+    }
+    .rider, .system{
+        width: 50%;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .ourPartners{
+        background-position: 0% -516%;
+    }
+    .red{
+        margin-top: -231px;
+    }
+    .redtext{
+        width: 100%;
+        text-align: center;
+    }
+    .redtext .reason-div{
+        margin: 0;
+        width: 33%;
+    }
+    .redImage{
+        width: 100%;
+    }
+    .redImage figure{
+        width: 50%;
+        margin: auto;
+        margin-top: 69px;
+    }
+    .redImage img{
+        float: none;
+    }
+    .blogs-div{
+        width: 50%;
+    }
+    .blogs{
+        width:80%;  
+        margin: auto;
+    }
+    .last-blogs{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .last-blogs .blogs{
+        width: 41%;
+    }
+    .center-blogs{
+        margin: 0;
+    }
+    .about, .contact{
+        margin: 0;
+        padding-left: 50px;
+    }
+    .about{
+        width: 45%;
+        text-align: center;
+    }
+    .links{
+        float:left;
+        width: 44%;
+        text-align: center;
+    }
+    .contact{
+        width: 45%;
+        text-align: center;
+    }
+    .contact ul li:first-child{
+        margin-left: 24%;
+    }
+    .download{
+        float: left;
+        width: 44%;
+        text-align: center;
+    }
+    .download li{
+        width: 50%;
+        margin: auto;
+    }
+    .copyright1{
+        width: 40%;
+        padding-left: 20px;
+    }
+    .copyright2{
+        width: 40%;
+    }
+    .benifits{
+        padding: 75% 0;
+        margin-top: -410px;
+    }
+    .footer{
+        background-size:100% 100%;
+        margin-top: -292px;
+    }
+}
+
+@media (max-width:640px){
+    .rider, .system {
+        width: 100%;
+    }
+    .container{
+        padding: 0 10% ;
+    }
+    .headerOptions{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .headerOptions li{
+        display: block;
+    }
+    .reason-div, .paymentOptions li{
+        width: 100%;
+        margin: 0;
+    }
+    .redtext .reason-div{
+        width: 100%;
+        margin: 0;
+    }
+    .redtext .reason-div .circle{
+        margin: auto;
+    }
+    .blogs-div{
+        width: 100%;
+    }
+    .last-blogs .blogs, .blogs{
+        width: 100%;
+    }
+    
+    .about, .links, .contact, .download {
+        width: 100%;
+        text-align: left;
+        padding: 0 0 30px 0;
+    }
+    .contact ul li:first-child {
+        margin: 0;
+    }
+    .download li {
+        width: 50%;
+        margin: 0;
+    }
+    
+}
